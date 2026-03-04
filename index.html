@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Animated Heart AR</title>
+
+  <!-- Model Viewer -->
+  <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>🫀 Interactive Animated Heart</h1>
+
+    <model-viewer
+      src="Heart.glb"
+      alt="Animated 3D Heart with Dual Posters"
+      auto-rotate
+      camera-controls
+      autoplay
+      ar
+      ar-modes="webxr scene-viewer quick-look"
+      shadow-intensity="1"
+      exposure="1"
+      environment-image="neutral"
+      style="width: 100%; height: 70vh;">
+    </model-viewer>
+
+    <p>Explore the animated heart and dual display panels in 3D and AR.</p>
+  </div>
+
+</body>
+</html>

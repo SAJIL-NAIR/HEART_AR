@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+model-viewer {
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(255, 0, 0, 0.3);
+}
+
+p {
+  opacity: 0.8;
+}
